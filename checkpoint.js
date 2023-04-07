@@ -4,6 +4,7 @@ document.write(variavel);
 
 document.write("<br><br>");
 
+
 //Exercício 2
 //Para exemplificar o % irei mostrar se o número digitado é par ou ímpar
 let num = (prompt("Digite um número: "))
@@ -13,6 +14,7 @@ if(num%2==0){
 else{
     document.write("É impar")
 }
+
 
 document.write("<br><br>");
 
@@ -33,6 +35,7 @@ document.write("você esta no peso ideal ");
 document.write("você esta acima do peso");
 }
 
+
 document.write("<br><br>");
 
 
@@ -47,6 +50,7 @@ document.write("adulto")
 }else{
 document.write("idoso")
 }
+
 
 document.write("<br><br>");
 
@@ -103,12 +107,15 @@ document.write (curso + "<br>")
 let ano = prompt("Digite seu ano: ")
 document.write (ano + "<br>")
 
+
 document.write("<br><br>");
+
 
 //Exercício 8
 let txt="O LUGAR VIRA TECNOLOGIA"
 document.write(txt + "<br>");
 document.write(txt.replace("LUGAR","MUNDO"));
+
 
 document.write("<br><br>");
 
