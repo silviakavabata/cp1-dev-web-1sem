@@ -10,6 +10,7 @@ else{
 
 document.write("<br><br>");
 
+
 //Exercício 3
 let pesoa = prompt("quanto vc pesa?")
 let alturaa = prompt("qual sua altura (em metros, ex 1.70)?")
@@ -28,6 +29,7 @@ document.write("você esta acima do peso");
 
 document.write("<br><br>");
 
+
 //Exercício 4
 let idade = prompt("qual sua idade?")
 if(idade<=12){
@@ -41,6 +43,7 @@ document.write("idoso")
 }
 
 document.write("<br><br>");
+
 
 //Exercício 5
 let user="admin"
@@ -56,6 +59,31 @@ else{
 alert("Login realizado com sucesso!");
 }
 
+
+//Exercício 6
+// Criando as notas do aluno
+let nota1 = 7;
+let nota2 = 5.5;
+let nota3 = 8;
+let nota4 = 6;
+let nota5 = 9;
+let nota6 = 7.5;
+let nota7 = 6.5;
+
+// Calculando a média das notas
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7;
+
+// Exibindo a média calculada
+console.log(`A média do aluno é ${media}`);
+
+// Verificando se o aluno foi aprovado ou reprovado
+if (media >= 6) {
+  console.log("O aluno foi aprovado!");
+} else {
+  console.log("O aluno foi reprovado!");
+}
+
+
 //Exercício 7
 let nome = prompt("Digite seu nome: ")
 document.write (nome + "<br>")
@@ -69,9 +97,20 @@ document.write (curso + "<br>")
 let ano = prompt("Digite seu ano: ")
 document.write (ano + "<br>")
 
+
 //Exercício 8
 let txt="O LUGAR VIRA TECNOLOGIA"
 document.write(txt + "<br>");
 document.write(txt.replace("LUGAR","MUNDO"));
 
 document.write("<br><br>");
+
+
+//Exercício 9
+let numstring = "957.24575";
+
+numfloat = parseFloat(numstring);
+
+let num2v = numfloat.toFixed(2);
+
+console.log(num2v);
