@@ -1,3 +1,9 @@
+//Exercício 1
+let variavel
+document.write(variavel);
+
+document.write("<br><br>");
+
 //Exercício 2
 //Para exemplificar o % irei mostrar se o número digitado é par ou ímpar
 let num = (prompt("Digite um número: "))
@@ -88,8 +94,8 @@ if (media >= 6) {
 let nome = prompt("Digite seu nome: ")
 document.write (nome + "<br>")
 
-let idade = prompt("Digite seu idade:")
-document.write (idade + "<br>")
+let idade2 = prompt("Digite seu idade:")
+document.write (idade2 + "<br>")
 
 let curso = prompt("Digite seu curso: ")
 document.write (curso + "<br>")
@@ -97,6 +103,7 @@ document.write (curso + "<br>")
 let ano = prompt("Digite seu ano: ")
 document.write (ano + "<br>")
 
+document.write("<br><br>");
 
 //Exercício 8
 let txt="O LUGAR VIRA TECNOLOGIA"
