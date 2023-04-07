@@ -1,3 +1,15 @@
+//Exercício 2
+//Para exemplificar o % irei mostrar se o número digitado é par ou ímpar
+let num = (prompt("Digite um número: "))
+if(num%2==0){
+    document.write("É par")
+}
+else{
+    document.write("É impar")
+}
+
+document.write("<br><br>");
+
 //Exercício 3
 let pesoa = prompt("quanto vc pesa?")
 let alturaa = prompt("qual sua altura (em metros, ex 1.70)?")
@@ -43,6 +55,19 @@ alert("Falha na autenticação. Usuário e/ou senha incorretos.");
 else{
 alert("Login realizado com sucesso!");
 }
+
+//Exercício 7
+let nome = prompt("Digite seu nome: ")
+document.write (nome + "<br>")
+
+let idade = prompt("Digite seu idade:")
+document.write (idade + "<br>")
+
+let curso = prompt("Digite seu curso: ")
+document.write (curso + "<br>")
+
+let ano = prompt("Digite seu ano: ")
+document.write (ano + "<br>")
 
 //Exercício 8
 let txt="O LUGAR VIRA TECNOLOGIA"
